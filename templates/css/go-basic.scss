@@ -1,0 +1,160 @@
+/*!
+ * // by WeaverTheme.com
+ ****
+ * Theme: Go Basic
+ ****
+* Matched Weaver Xtreme Go Basic
+ ****
+ * #### IMPORTANT: Do not edit the .css file! The original is a .sccs file, and the final version
+ * is compressed and unreadable. Edit the original .sccs file if you must. ####
+ */
+
+/* =bbPress Style
+-------------------------------------------------------------- */
+
+/* DEF: xxx = the default value from the base bbPress theme */
+
+/* Font Sizes */
+$fsz-base:			14px;		// base font size for #bbpress-forums-xxx - will be user option to set. DEF: 12px
+$fsz-83:			83%;		// smaller stuff - 10px;
+$fsz-92:			92%;		// 11px
+$fsz-100:			100%;		// the DEF font size
+$fsz-110:			110%;		// 13px
+$fsz-117:			117%;		// 14px
+$fsz-125:			125%;		// 15px
+$fsz-133:			133%;		// 16px
+$fsz-150:			150%;		// 18px
+$fsz-167:			167%;		// 20px
+
+$fsz-header-titles:	110%;		// title bars - forum, and freshness values (includes list titles) - DEF: 100%
+$fsz-list-title:	120%;		// % of header-titles - forums, topics - DEF: 100%
+$fw-list-title:		normal;		// Font weight of topic title in lists - DEF: normal
+
+$fsz-breadcrumbs:	110%;		// breadcrumbs - DEF: 100%
+
+$fsz-topictags:		92%;		// topic tags - DEF: 100% - used on all "extension" labels where topic tags goes
+$fw-topictags:		normal; 	// topic tags font-weight - DEF: normal
+
+$fsz-admin-links:	83%;		// admin links in topic info bar DEF: 83% /10 px
+
+$fsz-list-info:		92%;		// DEF: 92% / 11px
+$line-height-list-info: 1.5; 	// added - line height - DEF: 1.5
+
+$fsz-post-date:		100%;		// post date on topic - DEF: 100%
+$fsz-freshness-author: 125%;	// the freshness author on topic lists - DEF: 100%
+
+$fsz-subforum:		92%;		// sub-forum list - DEF: 11px
+$fsz-template-notice: 100%; 	// text in notice boxes - DEF: 100%
+
+$fsz-content:		100%;		// to make it easier to make content bigger - DEF: 100%
+
+$fsz-form-legend:	150%;		// top legend on forms" Reply / Create Topic - DEF: 100%
+$fsz-form-topic-title: 117%;	// topic title in form DEF: 110%;
+
+$fsz-page-links:	120%;		// paging links - DEF: 120%
+
+$fw-submit-buttons:	bold;		// font weight of buttons - DEF: bold;
+
+/* colors */
+$bg-forums:			transparent; 		// entire forum bg - DEF: transparent;
+$c-forums:			inherit;			// entire forum color - DEF: inherit
+
+$bg-topic:			inherit;			// !important required - bg of topics - css for even/odd will have priority - DEF: inherit;
+$c-topic:			inherit;			// color - DEF: inherit
+$bg-reply:			inherit;			// !important required - bg of replies - DEF: inherit
+$c-reply:			inherit;			// color - DEF: Inherit
+
+$bg-even:			transparent; 		// even/odd rows - original: #fff - DEF: transparent;
+$bg-odd:			rgba(0,0,0,0.05); 	//	original: #f8f8f8 - new DEF: rgba(0,0,0,0.05)
+$bg-trash-even:		rgba(0,0,0,0.15);	//  original: #fee - new DEF: rgba(0,0,0,0.15)
+$bg-trash-odd:		rgba(0,0,0,0.075);	//  original: #fdd - new DEF: rgba(0,0,0,0.075)
+
+$bg-footer:			#444;				// original: #F2F2F2 - new DEF: rgba(0,0,0,0.06)
+$c-footer:			#fff; 				// footer color - DEF: inherit
+$bg-header:			#000;				// .bbp-forum-header, .bbp-topic-header - original: #F2F2F2 - new DEF: rgba(0,0,0,0.06)
+$c-header:			#fff; 				// header color DEF: inherit
+$bg-reply-header:	#555;				// original: #f3f3f3 - new DEF: rgba(0,0,0,0.04)
+$c-reply-header:	#fff; 				// reply header - DEF: inherit
+
+$fw-header:			bold;				// DEF: bold
+$b-top-header-footer:	1px solid #333;	// DEF: 1px solid #eee;
+$fw-reply-header:	normal;				// DEF: normal
+$b-top-forum-list:	1px solid #eee;		// DEF: 1px solid #eee;
+$b-top-reply-header: 1px solid #444;	// DEF: 1px solid #ddd
+
+$c-topic-header-link-hover: #888;		//++ DEF: inherit;
+$c-topic-header-link:	#DDD;			//++ DEF: inherit;
+$fw-topic-header-link:	bold;						//++ DEF: normal
+
+$bg-submit-buttons:	#000;				// reply submit buttons - DEF: #666
+$bg-submit-hover:	#666;				// hover - DEF: #888
+$b-submit-buttons:	0;					// DEF: 0
+$c-submit-buttons:	#f0f0f0;			// DEF: #f0f0f0
+
+
+$bg-notice:			rgba(239,191,33,1);	// original: #ffffe0 - new DEF:rgba(128,128,0,.1) - pale yellow
+$c-notice:			#fff;				// color - DEF:inherit
+$c-notice-link:		#eee;				// notice links - DEF: #666
+$c-notice-hover:	#888;				// notice links hover - DEF: #333
+$bg-info:			rgba(0,0,0,.8); 	// original: #f0f8ff - new DEF: rgba(0,0,0,.06)  pale blue
+$c-info:			#fff;				// DEF: inherit
+$bg-important:		#fffbcc;			// DEF: #fffbcc - darker pale yellow
+$c-important:		inherit;			// color - DEF: inherit
+$bg-warning:		pink;				// DEF: #ffebe8 - pale pink
+$c-warning:			#222;				// warning color - DEF: inherit
+
+$bg-private-reply:	#D0FFFF;			// private reply - DEF: #D0FFFF
+$c-private-reply:	inherit;			// private reply color - DEF: inherit
+
+$bg-select:			#f0f0f0;			// bg color of <select> - DEF: #f0f0f0
+$c-select:			#111;				// and text color DEF: #111;
+
+
+$c-admin-links:		#bbb;				// admin links color - DEF: #bbb
+$c-admin-links-hover: #888;				// DEF: new - none
+
+$bg-sticky:			#ffffe0 !important; // DEF: #ffffe0 !important;
+
+// borders
+
+$b-topic-page:		1px solid #ddd;		// DEF: 1px solid #ddd;
+$b-subforum:		1px solid #ddd;		// DEF: 1px solid #ddd;
+$b-areas:			1px solid #eee;		// DEF: 1px solid #eee; border around major areas: fourms, topics, etc.
+$b-editor-area:		1px solid #dfdfdf;	// new DEF: 1px solid #dfdfdf; (around whole editor area)
+$b-edit-content:	2px solid #ddd !important; // border around the editor content - DEF: 2px solid #ddd !important
+
+$b-pagination-count:	1px solid transparent;	// DEF: 1px solid transparent;
+$b-pagination-link:		1px solid #efefef;		// DEF: 1px solid #efefef;
+$b-pagination-hover:	1px solid #ddd;			// DEF: 1px solid #ddd;
+
+// specific elements ------------------
+
+$bg-content-code:	rgba(0,0,0,.06);	// <code> in topics/replies - original: #f9f9f9 - new DEF: rgba(0,0,0,.06)
+$b-content-code:	1px solid #ddd;		// <code> border - DEF: 1px solid #ddd
+
+$avatar-border:		none !important;	// DEF: 3px double #ddd;
+$tiny-avatar-size:	22px;				// DEF: 18px
+
+$m-left-topic-meta:	1em;				// DEF: 0; left margin on topic meta (under topic title in forum list)
+$m-top-author-role:	-1em;				// DEF: 0; top margin above author role on topic/replies
+
+// plugins -----------------------------
+
+$bbppu-read:		5px solid transparent;	// Pencil Unread: 5px solid #EAEAEA;
+$bbppu-unread:		5px solid #333;	// DEF: 5px solid #21759B;
+
+
+// ==================================================================================================
+//
+// add the default styles that use the above variables. The core will be the same for all themes.
+
+@import '_bbpress-core';
+
+
+// ==================================================================================================
+//
+// add any customization CSS after the _bbpress-core definitions
+#bbpress-forums .bbp-reply-content #subscription-toggle a:hover,
+#bbpress-forums .bbp-reply-content #favorite-toggle a:hover {	// need this because deleting the &nbsp;|&nbsp;
+	color: #999;								// default: global link
+}

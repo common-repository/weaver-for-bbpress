@@ -1,0 +1,886 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Turnkey bbPress\n"
+"POT-Creation-Date: 2017-07-15 14:37-0600\n"
+"PO-Revision-Date: 2017-07-15 14:36-0600\n"
+"Last-Translator: Bruce <weaver@weavertheme.com>\n"
+"Language-Team: Bruce <weaver@weavertheme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: weaver-for-bbpress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-weaver-best-answer.php:92
+msgid "Accept Answer"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:93
+msgid "Unaccept Answer"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:129
+msgid "Select as best answer"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:209
+msgid ""
+"<strong>ERROR</strong>: There was a problem unaccepting the reply as best."
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:209
+msgid "<strong>ERROR</strong>: There was a problem accepting the reply."
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:307
+msgid "<em>This reply has been accepted as the best answer.</em>"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:333
+msgid "Unaccept the answer"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:333
+msgid "Unaccept answer"
+msgstr ""
+
+#: includes/class-weaver-best-answer.php:361
+msgid "You do not have the permission to do that!"
+msgstr ""
+
+#: includes/downloader.php:32
+msgid "Sorry - invalid download"
+msgstr ""
+
+#: includes/downloader.php:37
+msgid "Sorry - download must be initiated from admin panel."
+msgstr ""
+
+#: includes/downloader.php:42
+msgid ""
+"Headers Sent: The headers have been sent by another plugin - there may be a "
+"plugin conflict."
+msgstr ""
+
+#: includes/downloader.php:55
+msgid "Error - trying to save invalid type of settings:"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:5
+msgid "Admin &amp; User Options"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:25
+msgid "Save Admin &amp; User Options"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:38
+msgid "eMail Settings"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:38
+msgid ""
+"Use this site name and site email address for emails sent out by your forum."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:43
+msgid "Name used for Email Sender From field."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:44
+msgid "Email address to use for your site."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:51
+msgid ""
+"Replace the default WordPress \"From\" name (Word Press) and sender email "
+"address. Leave blank to use WP defaults."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:60 includes/wvrbbp-admin-admin.php:63
+msgid "Interface Options"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:63
+msgid "Control User Interface Options"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:68
+msgid ""
+"Enable: <em><strong>Visual Editor</strong></em>. Enable WP tinyMCE editor. "
+"We also recommend the <a href=\"//wordpress.org/plugins/wp-edit/\" target="
+"\"_blank\"><em>WP Edit</em></a> plugin to customize the Visual Editor "
+"buttons."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:69
+msgid ""
+"Enable: <em><strong>Topic Resolution</strong></em>. Enable adding Topic "
+"Resolution status: Resolved, Not Resolved, Not a Question, or none."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:73
+msgid ""
+"<em><strong>Use Icons for Resolution Status</strong></em>. Use icons to "
+"indicate status: Resolved, Not Resolved, Investigating."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:77
+msgid ""
+"Enable: <em><strong>Post Status Indicator</strong></em>. Status displayed "
+"above post author info. Private Reply for all users, Trash and Spam for "
+"moderators. <strong>Highly recommended</strong>."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:80
+msgid ""
+"Enable: <em><strong>Email Link</strong></em> in Profile. Enable display of "
+"\"mailto:\" link in profiles for Moderators. Does not show to Participants."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:82
+msgid ""
+"Enable: <em><strong>Auto-Block Spam Author</strong></em>. Automatically "
+"change role of author to <em>Blocked</em> when a topic or reply is marked as "
+"SPAM. Will auto reset to <em>Participant</em> if a topic or reply is "
+"UNSPAMmed. Will <em>not</em> automatically mark other topics by same author "
+"as SPAM."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:89
+msgid "Hide WP Admin Bar for:"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:91
+msgid "None - show for all logged in users"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:92
+msgid "All users"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:93
+msgid "Moderators and Participants"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:95
+msgid "Participants"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:97
+msgid ""
+"You probably don't want Participants to see the admin bar. Visitors not "
+"logged in will never see admin bar."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:101
+msgid "Login Widget"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:101
+msgid "Enhance the bbPress Login Widget"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:105
+msgid "Alternate widget title after logged in. Enter \"hide\" to hide title."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:106
+msgid ""
+"Add message in smaller font above Log Out button (e.g., \"Click your user "
+"name to edit your profile.\")"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:108
+msgid "Show current time below user name on Logout widget."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:112 includes/wvrbbp-runtime-actions.php:196
+msgid "Create New Topic"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:119
+msgid "Optional \"Create New Topic\" posting instructions. Can include HTML."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:125
+msgid "Other"
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:128
+msgid "I've donated."
+msgstr ""
+
+#: includes/wvrbbp-admin-admin.php:135
+msgid "Set options for users."
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:9
+msgid "Click for help"
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:29
+msgid "Like <em>Turnkey bbPress</em>? Please"
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:49
+msgid "Download"
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:51
+msgid "Save as:"
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:83
+msgid "You didn't select a file to upload."
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:89
+msgid "ERROR"
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:101
+msgid ""
+"Sorry, there was a problem uploading your file. The file you picked was not "
+"a valid Turnkey bbPress settings file."
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:105
+msgid "Turnkey bbPress Settings Restored."
+msgstr ""
+
+#: includes/wvrbbp-admin-lib.php:139
+#, php-format
+msgid ""
+"WARNING: invalid form submit detected (%s). Probably caused by session time-"
+"out, or, rarely, a failed security check."
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:18
+msgid "Version"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:30
+msgid "Themes &amp; CSS"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:32
+msgid "Forums &amp; Topics Layout"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:34
+msgid "Members"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:36
+msgid "Admin"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:38 includes/wvrbbp-save-restore-admin.php:29
+#: includes/wvrbbp-save-restore-admin.php:35
+msgid "Save/Restore"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:41
+msgid "Help"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:169
+msgid "Layout Options Saved"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:182 includes/wvrbbp-members-admin.php:8
+msgid "Member Options Saved"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:199
+msgid "Admin &amp; User Options Saved"
+msgstr ""
+
+#: includes/wvrbbp-admin-top.php:246
+msgid "Theme and Custom CSS Settings saved."
+msgstr ""
+
+#: includes/wvrbbp-help-admin.php:7
+msgid "Quick Start Help"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:5
+msgid "Forums &amp; Topic List Layout Options"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:26
+msgid "Save Layout Options"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:44
+msgid ""
+"Forum &amp; Topic Lists Layout <span class=\"wvrx-opts-title-description"
+"\">Change default Layouts of Forum Lists</span>"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:46
+msgid "New Features Added by <em>Turnkey bbPress</em>"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:49
+msgid ""
+"Enable: <em><strong>Topic Views Counter</strong></em> for all topic views. "
+"(Styled with .wvrbbp-topic-list-views and .wvrbbp-forum-list-views)"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:53
+msgid ""
+"<em><strong>Count Only Logged In Views</strong></em> - Count only views by "
+"logged in visitors instead of all page views."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:55
+msgid ""
+"Add <em><strong>Create New Topic</strong></em> link at top of Single Forum "
+"views. (Styled with .wvrbbp-new-topic)"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:58
+msgid ""
+"Hide <em><strong>Favorited and Subscribed Icons</strong></em> on Forum and "
+"Topic Lists."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:60
+msgid "Display Options for standard <em>bbPress</em> Features"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:63
+msgid "Hide <em><strong>Voices/Posts Counts</strong></em> on Forum Lists."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:65
+msgid "Hide <em><strong>Voices Column</strong></em> on Topics Lists."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:67
+msgid ""
+"Add <em><strong>Forum Description</strong></em> to top of Single Forum "
+"Views. (Styled with .wvrbbp-forum-description)"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:69
+msgid ""
+"Display <em><strong>Subforums in Columns</strong></em> rather than a comma "
+"separated list."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:71
+msgid ""
+"Hide <em><strong>Forum/Topic Header Info</strong></em>. Hide the \"This "
+"forum/topic contains count ... \" info at top of lists."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:73
+msgid ""
+"Hide <em><strong>Account Ability Message</strong></em>. Hide the \"Your "
+"account has the ability to post ...\" message above post/reply editor."
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:75
+msgid ""
+"<em><strong>Clear After Breadcrumbs</strong></em>. Add \"clear:both;\" after "
+"forum/topic breadcrumbs. Allows easier styling for <em>Subscribe</em>, "
+"<em>Create New Topic</em>, etc. <em></strong>Recommended.</strong></em>"
+msgstr ""
+
+#: includes/wvrbbp-layout-admin.php:82
+msgid ""
+"These options are used to show/hide and add extra options to the Forums and "
+"Topics Lists Index displays."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:6 includes/wvrbbp-members-admin.php:42
+msgid "Member Options"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:27
+msgid "Save Member Options"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:45
+msgid "Member Settings"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:45
+msgid "Set Member Interface Options"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:50
+msgid ""
+"Enable: <em><strong>Private Replies</strong></em> readable only by "
+"Moderators and topic originator. (Styled with .bbp-private-reply)"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:52
+msgid ""
+"Enable: <em><strong>Best Answer</strong></em> - allows Moderators and topic "
+"originator to accept one reply as best answer to topic. "
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:56
+msgid "Profile"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:56
+msgid "User Profile Options"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:60
+msgid ""
+"Enable: <em><strong>User Profile Options</strong></em>. Enable support for "
+"following User Profile options."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:66
+msgid "User Profile Visibility:"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:68
+msgid "Everyone, including visitors"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:69
+msgid "Must be logged in"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:70
+msgid "Owner only"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:71
+msgid "Owner plus Moderators"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:72
+msgid "Only Admin and Moderators"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:73
+msgid "Only Admin</option>"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:75
+msgid "Admins can always see all profiles."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:82
+msgid "Options to enhance Member features."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:94
+msgid "Mentions Settings"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:94
+msgid "Define the content of @mention messages."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:100
+msgid ""
+"<strong>Enable mentions</strong> - When enabled, users mentioned with <span "
+"style=\"color:blue\">@username</span> in topics or replies will be notified "
+"by email."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:102
+msgid "Enter a subject-line for the notification email"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:103
+msgid "[author-name] mentioned you on their forum post"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:105
+msgid "Enter a body for the notification email"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:117
+msgid "User Profile option label to enable mention notification."
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:118
+msgid "Notify me whenever my name is mentioned on the forums"
+msgstr ""
+
+#: includes/wvrbbp-members-admin.php:126
+msgid ""
+"<strong>You can format the subject and email body with the following "
+"patterns:</strong>\n"
+"<div style=\"padding-left:1em;\">\n"
+"[user-name]: mentioned user name</br>\n"
+"[user-link]: mentioned user profile link</br>\n"
+"[user-edit-profile-link]: mentioned user profile edit link</br>\n"
+"[author-name]: name of the user who mentions the target user (i.e topic/"
+"reply editor)</br>\n"
+"[post-title]: topic/reply title</br>\n"
+"[post-link]: topic or reply link</br>\n"
+"[post-content]: topic or reply content text</br>\n"
+"[post-date]: topic/reply publish date</br>\n"
+"[post-type]: type: topic or reply</br>\n"
+"[site-name]: site name</br>\n"
+"[site-login-link]: login URL</br>\n"
+"</div>"
+msgstr ""
+
+#: includes/wvrbbp-private-reply.php:60 includes/wvrbbp-private-reply.php:149
+msgid "This reply has been marked as private."
+msgstr ""
+
+#: includes/wvrbbp-private-reply.php:95
+msgid "Set post as private."
+msgstr ""
+
+#: includes/wvrbbp-private-reply.php:99
+msgid ""
+"Set as <em>Private Reply</em> readable only by you, the topic author, and "
+"Moderators."
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:30
+#, php-format
+msgid "Topic Resolution: %s"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:54
+msgid "Resolution:"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:56
+msgid "None"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:57 includes/wvrbbp-resolve.php:241
+#: includes/wvrbbp-resolve.php:268
+msgid "Resolved"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:58 includes/wvrbbp-resolve.php:247
+#: includes/wvrbbp-resolve.php:274
+msgid "Investigating"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:59 includes/wvrbbp-resolve.php:234
+#: includes/wvrbbp-resolve.php:261
+msgid "Not Resolved"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:60 includes/wvrbbp-resolve.php:228
+#: includes/wvrbbp-resolve.php:255
+msgid "Not a Question"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:65
+msgid "Update"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:235
+msgid "[Not Resolved]"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:242
+msgid "[Resolved]"
+msgstr ""
+
+#: includes/wvrbbp-resolve.php:248
+msgid "[Investigating]"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:67
+msgid "Profile Visibility"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:69
+msgid "Hide my Profile from other forum users (except Moderators)"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:139
+#, php-format
+msgid "Views: %s"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:168
+#, php-format
+msgid " - Views: %s"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:214
+msgid "Private Reply"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:219
+msgid "Spam"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:223
+msgid "In Trash"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:234
+msgid "Answered"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:237
+msgid "Best Answer"
+msgstr ""
+
+#: includes/wvrbbp-runtime-actions.php:308
+msgid "[Answered]"
+msgstr ""
+
+#: includes/wvrbbp-save-restore-admin.php:5
+#: includes/wvrbbp-save-restore-admin.php:35
+msgid "Save and Restore Settings"
+msgstr ""
+
+#: includes/wvrbbp-save-restore-admin.php:51
+msgid "Restore Settings"
+msgstr ""
+
+#: includes/wvrbbp-save-restore-admin.php:53
+msgid "Upload file to restore settings"
+msgstr ""
+
+#: includes/wvrbbp-save-restore-admin.php:60
+msgid "Options to save and restore settings to your own computer."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:6
+msgid "Alternative Themes and Custom CSS Rules"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:8
+msgid "Theme and CSS Options Saved"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:15
+msgid "Theme Selection"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:15
+msgid "Select a pre-defined Theme to use on your bbPress site."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:44
+msgid "Select a bbPress Theme: "
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:52
+msgid "Uploaded Custom File"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:65
+msgid ""
+"Select <em>bbPress Default</em> to use the original, unenhanced bbPress "
+"theme if required."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:70
+msgid "Sorry, no themes found. The theme directory is empty."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:75
+msgid ""
+"<strong>Custom Style File</strong>: You can provide your own custom bbPress ."
+"css style file. Must include all rules."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:77
+msgid ""
+"Specify full Media Library URL of your bbPress Custom .css file. \"Uploaded "
+"Custom File\" will appear in Select list."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:79
+msgid ""
+"<strong>Instructions</strong>: Upload your custom css file to the Media "
+"Library and paste its full URL in the Media Library into the text box above."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:85
+msgid ""
+"Theme Overrides <span class=\"wvrx-opts-title-description\">Modify basic "
+"elements from our Themes</span>"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:89
+msgid "Avatar Styling"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:91
+msgid ""
+"<em><strong>Round Avatar</strong></em> Make Participant avatars in Forums "
+"round."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:92
+msgid "Hide <em><strong>Tiny Avatars</strong></em> in Notices."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:94
+msgid ""
+" - <strong>Avatar Size</strong>. Size of small \"Started by\" and \"Freshness"
+"\" author avatars. Default is 14. Specify size 10 or larger. Recommended: "
+"34-40."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:100
+msgid "\"Started by\" Avatar Location:"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:102 includes/wvrbbp-style-admin.php:117
+msgid "Default location"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:103 includes/wvrbbp-style-admin.php:118
+msgid "On Left of its column"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:104 includes/wvrbbp-style-admin.php:119
+msgid "On Right of its column"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:105 includes/wvrbbp-style-admin.php:120
+msgid "Hide avatar"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:107
+msgid ""
+"The \"Started by\" avatar is normally displayed in the <em>Topics</em> "
+"column of topic lists."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:115
+msgid "\"Freshness\" Avatar Location:"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:122
+msgid ""
+"The \"Freshness\" avatar is normally displayed in the <em>Freshness</em> "
+"column of topic lists."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:128
+msgid "Additional Styling"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:130
+msgid ""
+"<em><strong>No Even/Odd Background Colors</strong></em> Don't use the Even/"
+"Odd background colors for lists."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:131
+msgid ""
+"<em><strong>Author Shadow Border</strong></em> Add shadow border around "
+"Author info on Topics."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:134
+msgid ""
+"px - <strong>Base font size</strong> of forum text. This will increase or "
+"decrease all font sizes relative to this base value. Do not enter px, just "
+"the number. Default is 12."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:143
+msgid ""
+"Replace the default bbPress theme with one of several pre-defined "
+"alternative themes provide by <em>Turnkey bbPress</em>.\n"
+"\tThese themes offer different color combinations that will blend well with "
+"almost any WP Theme.\n"
+"\tThe extra options can be used to modify basic element of the alternative "
+"themes such as base font size.\n"
+"\tNote: <em>bbPress Original</em> is the raw original bbPress theme. You "
+"probably don't want to use it.\n"
+"\t<em>bbPress Original Updated</em> is the original with minimal styling "
+"updates for this plugin.\n"
+"\t<em>bbPress Enhanced</em> is the original version enhanced with mixed font "
+"sizes and better button styling.\n"
+"\tMost of the other named themes are based on the <em>bbPress Enhanced</em> "
+"version."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:161
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:164
+msgid "Add Custom CSS Rules"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:164
+msgid "Add your own custom CSS Rules"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:167
+msgid ""
+"This section allows you to add new CSS Rules. You can make the plugin's "
+"output more closely match your own WP theme.\n"
+"You can add any standard CSS rule to the text box."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:169
+msgid ""
+"For help with bbPress styles, see the <a href=\"//codex.bbpress.org/bbpress-"
+"styling-crib/\" target=\"_blank\">bbPress Styling Crib</a>."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:176
+msgid ".sample-class { ... } /* enter CSS Rules */"
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:180
+msgid ""
+"Sorry, due to security issues, you must have an Administrator user role to "
+"add Custom CSS Rules."
+msgstr ""
+
+#: includes/wvrbbp-style-admin.php:195
+msgid "Save Theme and Style Options"
+msgstr ""
+
+#: templates/bbpress/content-single-user.php:89
+msgid "Sorry, you don't have permission to view this profile."
+msgstr ""
+
+#: weaver-for-bbpress.php:146
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Turnkey bbPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://weavertheme.com/weaver-for-bbpress/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Turnkey bbPress: easy bbPress styling that blends beautifully with your "
+"current WP Theme. Plus ESSENTIAL layout and user/admin usability options."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "wpweaver"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://weavertheme.com/about/"
+msgstr ""
